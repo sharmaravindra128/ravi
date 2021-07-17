@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title style="font-size:60px;">Ravindra Kumar Sharma</title>
+<link rel="stylesheet" href="css.css">
+</head>
+<body>
+
+<h1 style="font-size:60px;text-align:center;">Happy Independence Day</h1>
+<p style="font-size:20px;font-style: italic;color:white">Independence Day is celebrated annually on 15 August as a national holiday in India commemorating the nation's independence from the United Kingdom on 15 August 1947.Independence Day, one of the three National holidays in India (the other two being the Republic Day on 26 January and Mahatma Gandhi's birthday on 2 October), is observed in all Indian states and union territories. On the eve of Independence Day, the President of India delivers the "Address to the Nation". On 15 August, the Prime Minister hoists the Indian flag on the ramparts of the historical site of Red Fort in Delhi. Twenty-one gun shots are fired in honour of the solemn occasion.[26] In his speech, the Prime Minister highlights the past year's achievements, raises important issues and calls for further development. He pays tribute to the leaders of the Indian independence movement. The Indian national anthem, "Jana Gana Mana", is sung.  </p>
+<a href="https://en.wikipedia.org/wiki/Independence_Day_(India)"  style="font-size:20px;">Know more about it</a>
+<h2>
+</h2>
+<img src="15 august.jpg" style="float:center;width: 1000px;height: 500px;" >
+
+<h3 style="font-size:30px;color:slateblue;text-align:center;">Freedom Fighters </h3>
+<ul style="font-size:20px">
+    <li>Subhash Chandra Bose</li>
+    <li>Bhagat Singh</li>
+    <li>Chandra Sekhar Aazad</li>
+    <li>Udham Singh</li>
+    <li>Sukhdev</li>
+</ul>
+<h5 style="font-size:30px;text-align:center;color:seagreen">National Anthem</h5>
+  
+<audio controls>
+    <source src="Jana_Gana_Mana_instrumental.ogg" type="audio/ogg">
+  
+</audio>
+<h4 style="font-size:30px;text-align: center;color:purple"> Those who want to take part in District Parade On 15th August kindly fill the form given below:</h4>
+
+<form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+    
+
+        <p>
+        <label>Name
+        <input type="text" name="customer_name" required>
+        </label> 
+        </p>
+        
+        <p>
+        <label>Phone 
+        <input type="tel" name="phone_number">
+        </label>
+        </p>
+        
+        <p>
+        <label>Email 
+        <input type="email" name="email_address">
+        </label>
+        </p>
+        <input type="submit" value="Submit">
+    
+  </form>
+</body>
+</html>
